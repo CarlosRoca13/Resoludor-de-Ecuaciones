@@ -1,5 +1,8 @@
-#Aritmética
+#Ecuaciones Lineales y Cuadráticas
 
-Código base para la Práctica 0 sobre **JUnit**
 
-Ejemplo para clase.
+Programa que calcula el valor/es de x en la equación que se le pase.
+
+Cabe resaltar que calcula las ecuaciones con raices complejas.
+
+¡¡Acepto sujerencias!!

@@ -21,7 +21,8 @@ public class Ecuacion {
             System.out.print("Introduce valor \"c\": ");
             double c = Double.parseDouble(entrada.next());
 
-            mostrarEcuacion(a,b,c);
+            Ecuacion ec = new Ecuacion();
+            ec.mostrarEcuacion(a,b,c);
 
             System.out.print("Pulsa n para terminar o otro para terminar ");
             char resp = entrada.next().charAt(0);
@@ -35,7 +36,7 @@ public class Ecuacion {
         System.exit(0);
     }
 
-    public static void mostrarEcuacion(double a, double b, double c){
+    public void mostrarEcuacion(double a, double b, double c){
 
         if(a==0){
             double resultado;
